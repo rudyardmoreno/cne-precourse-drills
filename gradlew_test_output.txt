@@ -1,11 +1,20 @@
+D:\Rudy\GIT\cne-precourse-drills>gradlew test
 :compileJava UP-TO-DATE
 :processResources UP-TO-DATE
 :classes UP-TO-DATE
-:compileTestJava UP-TO-DATE
+:compileTestJava
 :processTestResources UP-TO-DATE
-:testClasses UP-TO-DATE
-:test UP-TO-DATE
+:testClasses
+:test
+
+com.galvanize.BusinessTest > test01_addressClassShouldWork PASSED
+
+com.galvanize.BusinessTest > test02_addressableInterfaceShouldExist PASSED
+
+com.galvanize.BusinessTest > test03_businessClassShouldExist PASSED
+
+com.galvanize.JsonTest > systemPropertiesWorked PASSED
 
 BUILD SUCCESSFUL
 
-Total time: 3.96 secs
+Total time: 9.04 secs
