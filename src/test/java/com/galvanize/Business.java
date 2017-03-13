@@ -7,17 +7,20 @@ package com.galvanize;
     Business Class
 */
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Business implements Addressable{
 
 	// properties
-    private final String name;
-	private final ArrayList<Address> addresses = new ArrayList<Address>();
+    private String name;
+	private ArrayList<Address> addresses = new ArrayList<Address>();
 
     public String getName() {
       return name;
     }
     
-    private void setName( int newName) {
+    private void setName( String newName) {
       name = newName;
     }
     

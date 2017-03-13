@@ -30,10 +30,6 @@ public class Address {
       return zip;
    }
 
-   public void setAge( int newAge) {
-      age = newAge;
-   }
-
    // Setters 
    public void setStreet(String newStreet) {
       street = newStreet;
@@ -53,20 +49,16 @@ public class Address {
    
    // Constructor
    public Address(String pStreet, String pCity, String pState, String pZip) {
-      setAge(pStreet);
+      setStreet(pStreet);
       setCity(pCity);
       setState(pState);
       setZip(pZip);
    }
    
    // Override toString method
-  @Override 
       public String toString() {
-        String result;
 
-        result = getStreet() + "," + getCity() + "," + getState() + "," + getZip();
-
-        return result.toString();
+        return getStreet() + "," + getCity() + "," + getState() + "," + getZip();
       }   
    
 }
