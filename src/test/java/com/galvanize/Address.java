@@ -14,19 +14,19 @@ public class Address {
    private String zip;
 
    // Getters
-   public int getStreet() {
+   public String getStreet() {
       return street;
    }
 
-   public int getCity() {
+   public String getCity() {
       return city;
    }
    
-   public int getState() {
+   public String getState() {
       return state;
    }
 
-   public int getZip() {
+   public String getZip() {
       return zip;
    }
 

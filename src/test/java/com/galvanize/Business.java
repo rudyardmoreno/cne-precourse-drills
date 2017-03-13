@@ -13,7 +13,7 @@ public abstract class Business implements Addressable{
     private final String name;
 	private final ArrayList<Address> addresses = new ArrayList<Address>();
 
-    public int getName() {
+    public String getName() {
       return name;
     }
     
