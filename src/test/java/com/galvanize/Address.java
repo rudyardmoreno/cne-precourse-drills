@@ -58,7 +58,7 @@ public class Address {
    // Override toString method
       public String toString() {
 
-        return getStreet() + "," + getCity() + "," + getState() + "," + getZip();
+        return getStreet()+ ", " + getCity() + ", " + getState() + " " + getZip();
       }   
    
 }

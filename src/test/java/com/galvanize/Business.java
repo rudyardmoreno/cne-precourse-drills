@@ -10,7 +10,7 @@ package com.galvanize;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Business implements Addressable{
+public class Business implements Addressable{
 
 	// properties
     private String name;
